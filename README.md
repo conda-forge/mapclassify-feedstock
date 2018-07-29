@@ -3,19 +3,20 @@ About mapclassify
 
 Home: https://github.com/pysal/mapclassify
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Classification schemes for choropleth mapping
+Summary: Classification schemes for choropleth maps
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/mapclassify-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/mapclassify-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/mapclassify-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/mapclassify-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/mapclassify-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/mapclassify-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/mapclassify-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/mapclassify-feedstock/branch/master)
 
 Current release info
 ====================
