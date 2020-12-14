@@ -5,11 +5,11 @@ Home: https://github.com/pysal/mapclassify
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapclassify-feedstock/blob/master/LICENSE.txt)
 
 Summary: Classification schemes for choropleth maps
 
-
+Development: https://github.com/pysal/mapclassify
 
 Current build status
 ====================
