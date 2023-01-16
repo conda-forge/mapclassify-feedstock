@@ -9,21 +9,21 @@ source:
   sha256: 5eb1f782155b5a90ec93c1dc52b300a2fad33117dcf08b7c858ed96da2a7baa0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
     - pip
   run:
-    - python >=3.5
-    - networkx
-    - numpy >=1.3
-    - pandas >=1.0
-    - scikit-learn
+    - python >=3.6
     - scipy >=1.0
+    - numpy >=1.3
+    - scikit-learn
+    - pandas >=1.0
+    - networkx
 
 test:
   imports:
