@@ -1,4 +1,4 @@
-{% set version = "2.5.0" %}
+{% set version = "23.1" %}
 
 package:
   name: mapclassify
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/mapclassify/mapclassify-{{ version }}.tar.gz
-  sha256: 5eb1f782155b5a90ec93c1dc52b300a2fad33117dcf08b7c858ed96da2a7baa0
+  sha256: 146c4e48f6944fb1214c9bafe39c3c4ce1dd54ff705cac14ca200f25d4455d34
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
