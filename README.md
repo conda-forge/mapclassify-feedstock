@@ -1,11 +1,11 @@
-About mapclassify
-=================
+About mapclassify-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapclassify-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pysal/mapclassify
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapclassify-feedstock/blob/main/LICENSE.txt)
 
 Summary: Classification schemes for choropleth maps
 
@@ -147,7 +147,9 @@ Feedstock Maintainers
 
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@jorisvandenbossche](https://github.com/jorisvandenbossche/)
+* [@knaaptime](https://github.com/knaaptime/)
 * [@ljwolf](https://github.com/ljwolf/)
+* [@martinfleis](https://github.com/martinfleis/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@sjsrey](https://github.com/sjsrey/)
 
