@@ -1,4 +1,4 @@
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 
 package:
   name: mapclassify
@@ -6,24 +6,26 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/mapclassify/mapclassify-{{ version }}.tar.gz
-  sha256: 5eb1f782155b5a90ec93c1dc52b300a2fad33117dcf08b7c858ed96da2a7baa0
+  sha256: 4fd8039cd4c147d16108bf5abac3e1be6827eb90fc52a916513bdd0f3df03acf
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
+    - setuptools >=61.0
+    - setuptools-scm >=6.2
   run:
-    - python >=3.6
-    - scipy >=1.0
-    - numpy >=1.3
-    - scikit-learn
-    - pandas >=1.0
-    - networkx
+    - python >=3.9
+    - scipy >=1.8
+    - numpy >=1.23
+    - scikit-learn >=1.0
+    - pandas >=1.4,!=1.5.0
+    - networkx >=2.7
 
 test:
   imports:
@@ -49,3 +51,5 @@ extra:
     - ljwolf
     - jorisvandenbossche
     - ocefpaf
+    - martinfleis
+    - knaaptime
