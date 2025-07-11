@@ -10,7 +10,7 @@ source:
   sha256: 0d6736a08c0b1e10e6197224ef512951514204706514244bd01aea49fd1442b3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -22,11 +22,11 @@ requirements:
     - setuptools-scm >=6.2
   run:
     - python >={{ python_min }}
-    - scipy >=1.8
-    - numpy >=1.23
-    - scikit-learn >=1.0
-    - pandas >=1.4,!=1.5.0
-    - networkx >=2.7
+    - networkx >=3.2
+    - numpy >=1.26
+    - pandas >=2.1
+    - scikit-learn >=1.4
+    - scipy >=1.12
 
 test:
   imports:
