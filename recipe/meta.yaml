@@ -1,5 +1,5 @@
 {% set version = "2.11.0" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: mapclassify
@@ -22,11 +22,11 @@ requirements:
     - setuptools-scm >=6.2
   run:
     - python >={{ python_min }}
-    - networkx >=3.2
-    - numpy >=1.26
-    - pandas >=2.1
-    - scikit-learn >=1.4
-    - scipy >=1.12
+    - networkx >=3.4
+    - numpy >=2.20
+    - pandas >=2.3
+    - scikit-learn >=1.5
+    - scipy >=1.14
 
 test:
   imports:
