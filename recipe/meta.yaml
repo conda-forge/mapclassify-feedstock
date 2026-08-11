@@ -1,5 +1,5 @@
-{% set version = "2.10.0" %}
-{% set python_min = "3.11" %}
+{% set version = "2.11.0" %}
+{% set python_min = "3.12" %}
 
 package:
   name: mapclassify
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mapclassify/mapclassify-{{ version }}.tar.gz
-  sha256: 0d6736a08c0b1e10e6197224ef512951514204706514244bd01aea49fd1442b3
+  sha256: 85dbfe747e5b5aed1f1fd41ef5de0c0ab8322227ee308191a44fff12c59c197d
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -22,11 +22,11 @@ requirements:
     - setuptools-scm >=6.2
   run:
     - python >={{ python_min }}
-    - networkx >=3.2
-    - numpy >=1.26
-    - pandas >=2.1
-    - scikit-learn >=1.4
-    - scipy >=1.12
+    - networkx >=3.4
+    - numpy >=2.0
+    - pandas >=2.3
+    - scikit-learn >=1.5
+    - scipy >=1.14
 
 test:
   imports:
