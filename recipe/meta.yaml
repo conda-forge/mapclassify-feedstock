@@ -1,4 +1,4 @@
-{% set version = "2.10.0" %}
+{% set version = "2.11.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mapclassify/mapclassify-{{ version }}.tar.gz
-  sha256: 0d6736a08c0b1e10e6197224ef512951514204706514244bd01aea49fd1442b3
+  sha256: 85dbfe747e5b5aed1f1fd41ef5de0c0ab8322227ee308191a44fff12c59c197d
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
